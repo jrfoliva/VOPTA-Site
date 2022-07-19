@@ -1,0 +1,24 @@
+/*Página de Contato */
+@media screen and (max-width: 768px){
+    #header .navbar-brand {
+        width: 60%;
+    }
+
+    #header .collapse {
+        padding-left: 0px;
+    }
+
+    section #container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section .descricao {
+        width: 100%;
+    }
+
+    section #form-contato {
+        width: 100%;
+    }
+}

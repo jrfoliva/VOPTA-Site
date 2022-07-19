@@ -1,0 +1,64 @@
+<div class="main">
+  <div class="item-1">
+    <h4>Escritório</h4>
+    <ul>
+      <li><span><img src="./image/clock.png" alt="Relógio" style="width:45px; padding-right:20px;"></span><span class="texto">Atendimento das 09h às 18h</span></li>
+      <li><span><img src="./image/phone.png" alt="Telefone" style="width:45px; padding-right:20px;"></span><span class="texto">(11) 2345-5678</span></li>
+      <li><span><img src="./image/mail.png" alt="Email" style="width:45px; padding-right:20px;"></span><span class="texto">contato@vopta.com.br</span></li>
+      <li><a href="https://goo.gl/maps/5hi85aT4uDhmwRs47" target="_blank" style="text-decoration:none;"><span><img src="./image/mapmark.png" alt="Marcador de posição no mapa" style="width:45px; padding-right:20px"></span><span class="texto">Av. Engenheiro Luis Carlos Berrini, 1140</span></a></li>
+    </ul>
+  </div>
+  <div class="item-2">
+    <div class="selo"><img src="./image/selo.svg" alt="Selo da Sociedade"></div>
+    <div class="sociais">
+      <span><a href="#"><img src="./image/instagram.svg" alt="Ícone instagram"></a></span>
+      <span><a href="#"><img src="./image/linkedin.svg" alt="Ícone linkedin"></a></span>
+      <span><a href="#"><img src="./image/twitter.svg" alt="Ícone twitter"></a></span>
+    </div>
+  </div>
+  <div class="item-3">
+    <h4 style="text-align:center; color:var(--primary); font-weight: bold; padding-bottom: 10px;">Precisa de ajuda especializada?</h4>
+    <div class="form-footer">
+      <form action="https://formsubmit.co/contato@vopta.com.br" method="POST">
+          <div class="form-floating mb-2">
+              <input type="text" class="form-control" id="name" name="name" placeholder="name@example.com" required>
+              <label for="name">Nome</label>
+          </div>
+          <div class="form-floating mb-2">
+              <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+              <label for="email">Email</label>
+          </div>
+          <div class="form-floating mb-2">
+              <input type="text" class="form-control" id="phone" name="phone" placeholder="(99) 99999-9999" 
+              onkeyup="mascara('(##) #####-####', this, event)" required>
+              <label for="phone">Whatsapp</label>
+          </div>
+          <div class="form-floating mb-2">
+              <select name="area" id="area" class="form-select form-control" required>
+                  <option disabled selected>Selecione a área de atuação</option>
+                  <option value="Médica/Saúde">Médica ou Saúde</option>
+                  <option value="Civil">Direito Civil</option>
+                  <option value="Família">Família e Sucessões</option>
+                  <option value="Imobiliário">Direito Imobiliário</option>
+                  <option value="Penal">Direito Penal</option>
+                  <option value="Empresarial">Direito Empresarial</option>
+                  <option value="Digital">Direito Digital</option>
+                  <option value="Consumidor">Direito do Consumidor</option>
+                  <option value="Trabalho">Direito do Trabalho</option>
+              </select>
+          </div>
+          <div class="form-floating mb-2">
+              <textarea class="form-control" placeholder="Sua mensagem" id="message" name="message" style="height:100px ;" required></textarea>
+              <label for="message">Sua Mensagem</label>
+          </div>
+          <div class="form-floating mb-2">
+            <button type="submit" class="btn" style="background-color:var(--tertiary); color:var(--secondary);">Enviar</button>
+            <button type="reset" class="btn btn-light">Limpar</button>
+          </div>
+      </form>
+    </div>
+  </div>
+  <!-- <div class="copyright">
+    © Copyright 2022 | Ágil Serviços e Soluções em Informática | Todos os direitos reservados
+  </div> -->
+</div>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - VOPTA</title>
+    <link rel="stylesheet" href="./css/main-contato.css">
+    <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./image/logoClara.svg" alt="logotipo da empresa"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link"  href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled"  href="#article-2">O escritório</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled"  href="#atuacao">Atuação</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-current="page" aria-disabled="true" href="#">Artigos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="contato.html">Contato</a>
+                </li>
+              </ul>    
+            </div>
+          </div>
+        </nav>    
+    </header>
+  
+    <!-- section da página contato -->
+    <section>
+        <div id="container">
+            <div class="descricao">
+                <h2 style="color:var(--primary); font-weight:600;">Precisa da ajuda de um especialista?</h2>
+                <p style="color:var(--secondary); text-align: justify; font-size: large; font-weight: bold;">Entre em contato pelo formulário ao lado explicando o seu problema.
+                    Ficaremos felizes em auxiliá-lo.
+                </p>
+            </div>
+            <div id="form-contato" style="color:var(--secondary);">
+                <form action="https://formsubmit.co/contato@vopta.com.br" method="POST">
+                    <div class="form-floating mb-2">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="name@example.com" required>
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="(99) 99999-9999" 
+                        onkeyup="mascara('(##) #####-####', this, event)" required>
+                        <label for="phone">Whatsapp</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <select name="area" id="area" class="form-select form-control" style="color:var(--primary);"required>
+                            <option disabled selected>Selecione a área de atuação</option>
+                            <option value="Médica/Saúde">Médica ou Saúde</option>
+                            <option value="Civil">Direito Civil</option>
+                            <option value="Família">Família e Sucessões</option>
+                            <option value="Imobiliário">Direito Imobiliário</option>
+                            <option value="Penal">Direito Penal</option>
+                            <option value="Empresarial">Direito Empresarial</option>
+                            <option value="Digital">Direito Digital</option>
+                            <option value="Consumidor">Direito do Consumidor</option>
+                            <option value="Direito">Direito do trabalho</option>
+                        </select>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Sua mensagem" id="message" name="message" style="height:150px ;" required></textarea>
+                        <label for="message">Sua Mensagem</label>
+                    </div>
+                    <div style="margin-top:7px;">
+                        <button type="submit" class="btn" style="background-color:var(--tertiary); color:var(--secondary);">Enviar</button>
+                        <button type="reset" class="btn btn-light" style="color:var(--secondary);">Limpar</button>
+                    </div>    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6da8051cda.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/scripts.js"></script>
+</body>
+</html>
