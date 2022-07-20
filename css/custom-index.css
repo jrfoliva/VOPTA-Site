@@ -59,6 +59,7 @@ body {
 
 #article-1 .carousel-inner > .carousel-item > img {
     height: 400px; 
+    background-size: cover;
 }
 
 
@@ -137,7 +138,7 @@ body {
 /* ATUAÇÃO */
 #article-2 #atuacao{
     width: 100%;
-    height: 400px;
+    height: 280px;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -223,7 +224,7 @@ body {
 #footer .main{
     width: 100%;
     margin-top: 50px;
-    min-height: 500px;
+    min-height: 480px;
     background: linear-gradient(45deg, var(--secondary), rgba(129, 1, 1, 0.5));
     /* background-color: var(--secondary); */
     color: var(--fifth);
@@ -287,10 +288,17 @@ body {
     padding-top: 50px;
 }
 
+#footer .form-footer {
+    width: 98%;
+    margin: 0 auto;
+}
+
 #footer .form-control {
     background-color: transparent;
 }
 
 #footer .copyright{
-    color: var(--primary);
+    font-size: small;
+    color: var(--secondary);
+    padding: 10px 0 10px 0;
 }
