@@ -1,7 +1,7 @@
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     height: 100%;
     /* animation:changeBackground 10s infinite; */
@@ -11,9 +11,7 @@ body {
     /* background-size: cover; */
     background-color: var(--fifth);
 }
-#header {
-    padding-top: 0;
-}
+
 
 #header .navbar-brand {
     width: 25%;
@@ -22,7 +20,7 @@ body {
 }
 
 #header .collapse {
-    padding: 30px 0px 0px 500px;
+    padding: 30px 0px 0px 400px;
 }
 
 #header .nav-link {
@@ -34,7 +32,8 @@ body {
 }
 
 #header .nav-link:hover{
-    background-color: #1b3a2f;
+    text-decoration: underline;
+    color: #fff;
 }
 
 #header .dropdown-menu {
