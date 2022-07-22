@@ -88,7 +88,7 @@ body {
 #article-2 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 2% 3% 2% 3%;
+    padding: 4% 3% 4% 3%;
 }
 
 /* #article-2 .sobre h2{
@@ -99,7 +99,6 @@ body {
 } */
 
 #article-2 .sobre p {
-    margin-left: 0px;
     text-indent: 50px;
     text-align: justify;
     color: var(--forth);
