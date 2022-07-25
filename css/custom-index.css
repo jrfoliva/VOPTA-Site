@@ -15,7 +15,7 @@ body {
 
 #header {
     background-color: var(--fifth);
-    min-height: 100px;
+    height: 12%;
 }
 
 #header .navbar-brand {
@@ -75,6 +75,7 @@ body {
 }
 
 .d-block {
+    padding-top: 5px;
     width: 100%;
 }
 
@@ -88,7 +89,7 @@ body {
 #article-2 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 4% 3% 4% 3%;
+    padding: 2% 3% 2% 3%;
 }
 
 /* #article-2 .sobre h2{
