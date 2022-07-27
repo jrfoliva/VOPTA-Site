@@ -69,16 +69,21 @@ body {
 
 .carousel-inner {
     width: 100%;
-    max-height: 450px;
+    height: 400px;
     margin: 0;
     padding: 0;
 }
 
-.d-block {
-    padding-top: 5px;
+.img-fluid {
     width: 100%;
+    height: 400px;
 }
 
+.carousel-caption {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
 
 #article-2 {
     width: 100%;
@@ -102,7 +107,7 @@ body {
 #article-2 .sobre p {
     text-indent: 50px;
     text-align: justify;
-    color: var(--forth);
+    color: var(--fifth);
     font-size: 1.4em;
     font-weight: 600;
     line-height: 1.5; 

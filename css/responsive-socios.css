@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px){
+    #container {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .foto-socios {
+        width: 95%;
+        margin: 10px 0px;
+        padding: 0;
+        align-self: center;
+    }
+
+    .historia {
+        width: 100%;
+        height: auto;
+        padding: 0px 20px;
+        text-align: justify;
+    }
+
+    .link-socio {
+        width: 100%;
+        height: auto;
+    }
+
+}

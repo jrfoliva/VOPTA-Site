@@ -15,13 +15,13 @@
     }
    
     .carousel-inner {
-        height: 215px;
+        height: 250px;
     }
 
-    .d-block {
-        padding-top: 2.5px;
-        min-height: 100%;
+    .img-fluid {
+        height: 250px;
     }
+    
 
     #article-2 .container {
         height: 100%;
@@ -34,7 +34,7 @@
 
     #article-2 .sobre{
         width: 96%;
-        padding: 0;
+        padding-top: 30px;
     }
 
     #article-2 #atuacao {

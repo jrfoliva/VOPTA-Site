@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sócio Paulo - VOPTA</title>
+    <link rel="shortcut icon" href="./image/marca.svg" sizes="32x32" type="image/x-icon">
+    <link rel="stylesheet" href="./css/custom-socio.css">
+    <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#footer').load('footer.html');
+      });
+    </script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./image/logoClara.svg" alt="logotipo da empresa"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link"  href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled"  href="#article-2">O escritório</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="socios.html">Profissionais</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled"  href="#atuacao">Atuação</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-current="page" aria-disabled="true" href="#">Artigos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="contato.html">Contato</a>
+                </li>
+              </ul>    
+            </div>
+          </div>
+        </nav>    
+    </header>
+  
+    <!-- section -->
+    <section>
+        <div id="container">
+            <div class="foto">Minha Foto</div>
+            <div class="nome">
+                <h2>Paulo Vieira</h2>
+                <p>Advogado especialista em ...</p>
+                <div class="sociais">
+                    <span><a href="#"><img src="./image/instagram.svg" alt="Ícone instagram"></a></span>
+                    <span><a href="#"><img src="./image/linkedin.svg" alt="Ícone linkedin"></a></span>
+                    <span><a href="#"><img src="./image/whatsapp.svg" alt="Ícone whatsapp"></a></span>
+                </div>
+            </div>
+            <div class="experiencia">
+                <h3 style="text-align:center; margin-top:50px; color: var(--tertiary);">Minha Formação / Experiência</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error id, molestiae eveniet rem possimus dolores, mollitia facere dolorum ducimus atque odit vitae, aliquid amet neque provident eum hic sed incidunt.</p>
+                <p>
+                    <ul>
+                        <li>Odit corrupti inventore</li>
+                        <li>Dolorem ut voluptas at quis optio maxime </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+                    </ul>
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer id="footer"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

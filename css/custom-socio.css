@@ -1,0 +1,82 @@
+@import url('config.css');
+@import url('bootstrap.min.css');
+@import url('custom-index.css');
+@import url('responsive-index.css');
+
+
+#container {
+    width: 95%;
+    height: auto;
+    margin: 4% auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: var(--secondary); */
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: 2%;
+    border: rgb(81,80, 83) solid 2px;
+    border-radius: 100%;
+}
+
+.nome {
+    width: 70%;
+    height: 200px;
+    margin-left: 4%;
+    align-self: center;
+    justify-items: flex-start;
+    /* border: solid 2px var(--primary); */
+}
+.nome h2{
+    font-weight: 600;
+    color: var(--fifth);
+}
+
+.nome p {
+    font-size: 1.4em;
+    color: var(--forth);
+}
+
+.nome .sociais img {
+    width: 25px;
+    background-color: var(--tertiary);
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.experiencia {
+    width: 98%;
+    height: 600px;
+    margin: 2% auto;
+    background-color: #fff;
+    border-radius: 10px;
+    color: var(--forth);
+    font-size: 1.2em;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.experiencia h3 {
+    font-weight: 600;
+}
+.experiencia p{
+    width: 90%;
+    text-align: justify;
+    margin: 30px auto;
+    color: var(--forth);
+}
+
+.experiencia ul {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 5%;
+    color: var(--forth);
+}
+

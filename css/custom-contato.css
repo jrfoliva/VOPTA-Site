@@ -39,3 +39,7 @@ section #container {
     color: var(--primary);
     background-color: transparent;   
 }
+
+#form-contato option{
+    color: var(--forth);
+}

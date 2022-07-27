@@ -375,7 +375,7 @@ function removeElem() {
    $(function () {
       $('html').animate({
          scrollTop: $('#atuacao').offset().top -120
-      }, 1600);
+      }, 1000);
    });
 
 }
