@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px){
+    
+    .nome {
+        width: 100%;
+        margin: 10px 0px;
+        padding: 0;
+    }
+    
+    .nome h2 {
+        font-size: 1.4em;
+    }
+}

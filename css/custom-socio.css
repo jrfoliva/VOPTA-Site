@@ -2,6 +2,7 @@
 @import url('bootstrap.min.css');
 @import url('custom-index.css');
 @import url('responsive-index.css');
+@import url('responsive-socio.css');
 
 
 #container {
@@ -17,12 +18,15 @@
 .foto {
     width: 200px;
     height: 200px;
-    align-self: center;
-    text-align: center;
-    padding-top: 80px;
     margin-left: 2%;
-    border: rgb(81,80, 83) solid 2px;
-    border-radius: 100%;
+    align-self: center;
+    /* border: rgb(81,80, 83) solid 2px; */
+   
+}
+.foto img{
+    width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
 }
 
 .nome {
@@ -39,21 +43,29 @@
 }
 
 .nome p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: var(--forth);
 }
 
 .nome .sociais img {
     width: 25px;
     background-color: var(--tertiary);
-    padding: 3px;
     border-radius: 3px;
+    padding: 3px;
     margin-left: 5px;
+}
+
+.sociais a {
+    outline: none;
+}
+
+.nome .sociais img:hover {
+    background-color: var(--forth);
 }
 
 .experiencia {
     width: 98%;
-    height: 600px;
+    height: auto;
     margin: 2% auto;
     background-color: #fff;
     border-radius: 10px;
@@ -63,20 +75,16 @@
     box-shadow: 1px 1px 1px #000;
 }
 
-.experiencia h3 {
+.experiencia h5 {
+    margin:30px 10%;
     font-weight: 600;
+    text-decoration: underline;
 }
 .experiencia p{
-    width: 90%;
+    width: 60%;
     text-align: justify;
-    margin: 30px auto;
+    margin: 30px 10%;
     color: var(--forth);
 }
 
-.experiencia ul {
-    width: 90%;
-    margin: 0 auto;
-    padding-left: 5%;
-    color: var(--forth);
-}
 
