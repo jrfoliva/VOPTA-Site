@@ -34,8 +34,22 @@
 
     #article-2 .sobre{
         width: 96%;
-        padding-top: 30px;
     }
+
+    #article-2 .sobre p{
+        width: 100%;
+    }
+
+    #article-2 .ideia{
+        width: 100%;
+        margin: 20px auto;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
 
     #article-2 #atuacao {
         height: 100%;
@@ -46,7 +60,12 @@
     #atuacao .item {
         width: 90%;
         margin: 20px;
-    } 
+    }
+    
+    .socios {
+        flex-direction: column;
+        align-items: center;
+    }
     
 
     #footer .main {

@@ -59,6 +59,7 @@ body {
 
 #section {
     width: 100%;
+    min-height: 100%;
 }
 
 #article-1 {
@@ -92,25 +93,85 @@ body {
 }
 
 #article-2 .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 2% 3% 2% 3%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-/* #article-2 .sobre h2{
-    color: var(--forth);
+#article-2 .sobre {
+    width: 70%;
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+
+#article-2 .sobre h2{
+    color: var(--fifth);
     font-size:xx-large;
     font-weight: bolder;
     padding-bottom: 3%;
-} */
+}
 
 #article-2 .sobre p {
-    text-indent: 50px;
+    width: 80%;
+    text-indent: 30px;
     text-align: justify;
     color: var(--fifth);
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 600;
     line-height: 1.5; 
+}
+
+.ideia {
+    width: 30%;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.livro {
+    width: 260px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 2px 2px 2px black;
+}
+
+.livro > img{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.citacao{
+    position: absolute;
+    z-index: 2;
+    max-width: 260px;
+    max-height: 95px;
+    opacity: 0.6;
+    background-color: var(--forth);
+    color: #fff;
+    text-align: justify;
+    padding: 5px 5px;
+    font-size: small;
+    cursor: pointer;    
+}
+
+.citacao > h6 {
+    text-align: right;
+}
+
+.citacao:hover {
+    opacity: 0.9;
+    box-shadow: 2px 2px 2px black;
+    transform: scale(1.2);
+    transition: 1s;
 }
 
 /* 
@@ -135,10 +196,26 @@ body {
 
 
 /* ATUAÇÃO */
+.externa {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.texto-area_atuacao {
+    position: absolute;
+    top: -50px;
+    left: 30px;
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: var(--fifth);
+}
+
 #article-2 #atuacao{
     width: 82%;
-    height: 280px;
-    margin: 50px auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -146,9 +223,9 @@ body {
 }
 
 #atuacao .item {
-    width: 20%;
+    width: 22%;
     height: 80px;
-    margin: 5px 10px;
+    margin: 20px 10px;
     background-color:  rgb(81,80, 83);
     border-radius: 5px;
     border: 4px outset var(--secondary);
@@ -158,11 +235,63 @@ body {
     text-align: center;
     padding-top: 25px;
     cursor: pointer;
+    position: relative;
 }
 
+
 #article-2 .item:hover {
+    color: var(--primary);
     transform: translate(0px, -8px);
     transition: 0.5s;
+}
+
+.socios {
+    position: relative;
+    width: 80%;
+    margin: 100px auto 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.texto-profissionais {
+    position: absolute;
+    top: -50px;
+    left: 30px;
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: var(--fifth);
+}
+.texto-profissionais a {
+    color: var(--fifth);
+}
+
+.socio {
+    width: 150px;
+    height: 250px;
+}
+
+.socio img{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.socio img:hover {
+    transition: 0.7s;
+    -webkit-filter: initial;
+    filter: initial;
+}
+
+.socio h5 {
+    color: var(--fifth);
+    padding-top: 15px;
+    text-align: center;
 }
 
 /* article-3 */
