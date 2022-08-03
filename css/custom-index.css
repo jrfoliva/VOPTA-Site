@@ -95,13 +95,12 @@ body {
 #article-2 .container {
     min-width: 100%;
     margin: 0;
-    padding: 0;
-    height: 400px;
+    padding-bottom: 3%;
+    min-height: 40%;
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 #article-2 .sobre {
@@ -114,11 +113,11 @@ body {
     color: var(--fifth);
     font-size:xx-large;
     font-weight: bolder;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 
 #article-2 .sobre p {
-    width: 80%;
+    width: 85%;
     text-indent: 30px;
     text-align: justify;
     color: var(--fifth);
@@ -128,9 +127,9 @@ body {
 }
 
 .ideia {
-    width: 30%;
-    margin-top: 50px;
-    padding-left: 30px;
+    width: 20%;
+    min-height: 100%;
+    align-self: center;
 }
 
 .livro {
@@ -275,7 +274,7 @@ body {
 
 .socio img{
     width: 100%;
-    height: 150px;
+    height: 147px;
     border-radius: 50%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
