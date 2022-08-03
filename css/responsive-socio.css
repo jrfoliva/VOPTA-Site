@@ -9,4 +9,8 @@
     .nome h2 {
         font-size: 1.4em;
     }
+
+    .experiencia p {
+        width: 95%;
+    }
 }
