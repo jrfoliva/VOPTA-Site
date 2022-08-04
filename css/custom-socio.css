@@ -47,6 +47,10 @@
     color: var(--forth);
 }
 
+.nome .sociais {
+    margin-bottom: 20px;
+}
+
 .nome .sociais img {
     width: 25px;
     background-color: var(--tertiary);
