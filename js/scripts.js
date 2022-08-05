@@ -380,8 +380,6 @@ function removeElem() {
 
 }
 
-
-
 // function apresentarDiv(infoAtuacao){
 //     let dataInfo = document.querySelector('[data-info]');
 //     dataInfo.className="container_atuacao";   

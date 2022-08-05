@@ -4,87 +4,81 @@
 @import url('responsive-index.css');
 
 #container {
-    width: 90%;
-    height: auto;
-    margin: 4% auto;
-    display: flex;
-    flex-direction: column;
-    /* background-color: var(--secondary); */
+  width: 90%;
+  height: auto;
+  margin: 4% auto;
+  display: flex;
+  flex-direction: column;
+  /* background-color: var(--secondary); */
 }
 
-
-
 section {
-    padding: 60px 0;
-    overflow: hidden;
-  }
+  padding: 60px 0;
+  overflow: hidden;
+}
   
-  .section-bg {
-    background-color: var(--primary);
-  }
-  
-  .section-title {
-    text-align: center;
-    padding-bottom: 30px;
-  }
-  
-  .section-title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: var(--fifth);
-  }
-  
-  .section-title h2::before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 120px;
-    height: 1px;
-    background: #ddd;
-    bottom: 1px;
-    left: calc(50% - 60px);
-  }
-  
-  .section-title h2::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 3px;
-    background: var(--fifth);
-    bottom: 0;
-    left: calc(50% - 20px);
-  }
-  
-  .section-title p {
-    margin-bottom: 0;
-  }
+.section-bg {
+  background-color: var(--primary);
+}
 
-  .accordion-button:not(.collapsed) {
-    background-color: var(--secondary);
-    color: #fff;
-  }
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
 
-  .accordion-button {
-    color: var(--tertiary);
-    font-size: 1.3rem;
-    cursor: pointer;
-  }
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: var(--fifth);
+}
 
-  .accordion-body p {
-    font-size:large;
-    color: var(--forth);
-  }
-  
-  .accordion-body h5{
-    text-align: right;
-    padding-right: calc(5% - 30px);
-    color: var(--forth);
+.section-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
 
-  }
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--fifth);
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+.accordion-button:not(.collapsed) {
+  background-color: var(--secondary);
+  color: #fff;
+}
+.accordion-button {
+  color: var(--tertiary);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.accordion-body p {
+  font-size:large;
+  color: var(--forth);
+}
+
+.accordion-body h5{
+  text-align: right;
+  padding-right: calc(5% - 30px);
+  color: var(--forth);
+}
 
   

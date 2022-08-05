@@ -24,10 +24,6 @@ body {
     outline: none;
 }
 
-#header .collapse {
-    padding: 0px 0px 0px 350px;
-}
-
 #header .nav-link {
     padding-top: 20px;
     font-size: 1em;
@@ -38,8 +34,8 @@ body {
 }
 
 #header .nav-link:hover{
-    text-decoration: underline;
     color: #fff;
+    text-decoration: underline;
 }
 
 #header .dropdown-menu {
@@ -49,11 +45,12 @@ body {
 
 #header .dropdown-item{
     color: var(--primary);
-    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #header .dropdown-item:hover {
-    background-color: var(--primary);
+    background-color: var(--tertiary);
+    border-bottom: ridge 2px var(--primary);
 }
 
 
@@ -128,6 +125,7 @@ body {
 
 .ideia {
     width: 20%;
+    padding-top: 20px;
     min-height: 100%;
     align-self: center;
 }
